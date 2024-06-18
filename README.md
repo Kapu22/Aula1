@@ -1,20 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ednilson</title>
+    <title>AluraBooks</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
 </head>
+
 <body>
-   <h1>Um pouco sobre a minha escola</h1> 
+  
+  <header class="cabeçalho">
+    <div class="container">
+       <input type="checkbox" id="menu" class="container__botao">
+       <label for="menu">
+      <span class="cabeçalho__menu-hamburguer"></span>
+      </label>
+      <ul class="lista menu">
+        <li class="lista-menu__titulo"> categorias</li>
+        <li class="lista-menu_item"><a href="#" class="lista-menu_link">Programação</a></li>
 
+        <li class="lista-menu__titulo"> categorias</li>
+        <li class="lista-menu_item"><a href="#" class="lista-menu_link">Front-end</a></li>
 
-   <img src="https://cdn.discordapp.com/attachments/1079065065522733168/1233126965008142427/IMG-20240122-WA0003.jpg?ex=662bf67a&is=662aa4fa&hm=86e661278667f2edcb8ee3ce9309eea455e416f660bba976e4c85f191564cdd1&" height="450" width="450">
-<h2>Ela está  localiza em Aquidabã, distrito de Marialva. 
-    tem um ótimo ensino, superando várias escolas que conheço
-</h2>
-<h1>sobre mim</h1>
-<img src="https://cdn.discordapp.com/attachments/1079065065522733168/1233127794779754516/f139dc89e5b1ad0818f612c7f33200a5.jpg?ex=662bf740&is=662aa5c0&hm=7897f056a143671fb45499e123fa62934b8257aacfb4732708b10d0edec67498&" height="250" width="250">
-<h2>Eu sou Ednilson e estudo nessa escola já faz um anos. Estou
-    segundo ano do ensino médio. E recentemente fiz 16 anos</h2>
+        <li class="lista-menu__titulo"> categorias</li>
+        <li class="lista-menu_item"><a href="#" class="lista-menu_link">Infraestrutura</a></li>
+
+        <li class="lista-menu__titulo"> categorias</li>
+        <li class="lista-menu_item"><a href="#" class="lista-menu_link">Business</a></li>
+
+        <li class="lista-menu__titulo"> categorias</li>
+        <li class="lista-menu_item"><a href="#" class="lista-menu_link">Design & ux</a></li>
+      </ul>
+      <img src="img/Logo.png" alt="Logo da AluraBooks">
+    </div>
+    <div class="container">
+      <a href="#"><img src="img/Favoritos.png" alt="Meus favoritos"></a></a>
+      <a href="#"><img src="img/Compras.png"   alt="Carrinho de Compras"></a></a>
+      <a href="#"><img src="img/Usuário.png"   alt="Meu perfil"></a></a>
+    </div>
+  </header>
+  
+
 </body>
+
+</html>
